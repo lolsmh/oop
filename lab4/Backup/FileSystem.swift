@@ -1,10 +1,3 @@
-//
-//  FileSystem.swift
-//  Backup
-//
-//  Created by Даниил Апальков on 04.11.2020.
-//
-
 class FileSystem {
     private var _sysBackup: [BackupItem] = []
     private var _sysFiles: [FileInfo] = []
@@ -84,7 +77,6 @@ class FileSystem {
     }
     
     private func backup(files: String) {
-
         var arr: [String.SubSequence] = []
         var isFileBackup: Bool = false
         if files.hasPrefix("-f") {
@@ -109,9 +101,9 @@ class FileSystem {
                 }
             }
             if isFileBackup {
-                self._sysBackup.append(backuper.CreateBackup(args: arrinf, mode: BackUpType.InFile))
+                self._sysBackup.append(backuper.CreateBackup(args: arrinf, mode: BackupMode.InFile))
             } else {
-                self._sysBackup.append(backuper.CreateBackup(args: arrinf, mode: BackUpType.Separate))
+                self._sysBackup.append(backuper.CreateBackup(args: arrinf, mode: BackupMode.Separate))
             }
         } else {
             print("File does not exist")
@@ -139,10 +131,35 @@ class FileSystem {
     }
     
     private func rebackup(file: String) {
-        let name = getName(cmd: file)
+        var name = getName(cmd: file)
+        var isIncremental = false
+        if name.hasPrefix("-i") {
+            isIncremental = true
+            name = String(name[name.index(name.firstIndex(of: "i")!, offsetBy: 2)..<name.endIndex])
+        }
         for i in self._sysBackup {
             if i.name == name {
-                i.addRestorePoint()
+                if isIncremental {
+                    if i.items[0].list[0].Name.hasSuffix(".rar") {
+                        do {
+                            try i.addRestorePoint(mode: BackupMode.InFileIncremental)
+                        } catch IncrementalError.BackupIsEmpty(message: let error) {
+                            print("ERROR: \(error)")
+                        } catch {
+                            print("Unknown Error")
+                        }
+                    } else {
+                        do {
+                            try i.addRestorePoint(mode: BackupMode.SeparateIncremental)
+                        } catch IncrementalError.BackupIsEmpty(message: let error) {
+                            print("ERROR: \(error)")
+                        } catch {
+                            print("Unknown Error")
+                        }
+                    }
+                } else {
+                    i.addRestorePoint()
+                }
             }
         }
     }
@@ -186,11 +203,11 @@ class FileSystem {
             for i in self._sysBackup {
                 if i.name == name {
                     if cmd == "-c" {
-                        i.items = i.clear(clear: ClearType.ByCount, arg)
+                        i.clear(clear: ClearMode.ByCount, arg)
                     } else if cmd == "-d" {
-                        i.items = i.clear(clear: ClearType.ByDate, arg)
+                        i.clear(clear: ClearMode.ByDate, arg)
                     } else if cmd == "-s" {
-                        i.items = i.clear(clear: ClearType.BySize, arg)
+                        i.clear(clear: ClearMode.BySize, arg)
                     }
                 }
             }

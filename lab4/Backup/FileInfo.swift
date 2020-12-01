@@ -1,14 +1,7 @@
-//
-//  FileInfo.swift
-//  Backup
-//
-//  Created by Даниил Апальков on 03.11.2020.
-//
-
 class FileInfo {
-    var Path: String;
-    var Size: Int;
-    var Name: String;
+    private(set) var Path: String
+    private(set) var Size: Int
+    private(set) var Name: String
     
     init(_ filePath: String) {
         self.Path = filePath

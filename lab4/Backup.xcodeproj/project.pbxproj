@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		872B2BD7257501A6001DF996 /* InFileRestorePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872B2BD6257501A6001DF996 /* InFileRestorePoint.swift */; };
+		872B2BDB25750204001DF996 /* IRestorePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872B2BDA25750204001DF996 /* IRestorePoint.swift */; };
+		872B2BDE2575039B001DF996 /* IncrementalSeparateRestorePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872B2BDD2575039B001DF996 /* IncrementalSeparateRestorePoint.swift */; };
+		872B2BE125750420001DF996 /* IncrementalInFileRestorePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872B2BE025750420001DF996 /* IncrementalInFileRestorePoint.swift */; };
+		872B2BE925750E2C001DF996 /* IFullRestorePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872B2BE825750E2C001DF996 /* IFullRestorePoint.swift */; };
+		872B2BEC25750E4C001DF996 /* IIncrementalRestorePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872B2BEB25750E4C001DF996 /* IIncrementalRestorePoint.swift */; };
 		8732BB9925515DB60076E663 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732BB9825515DB60076E663 /* main.swift */; };
 		8790D2A72551EB9500506949 /* Backuper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790D2A62551EB9500506949 /* Backuper.swift */; };
 		87C2F45B255191730029ECE9 /* MyDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2F45A255191730029ECE9 /* MyDate.swift */; };
-		87C2F45E255191900029ECE9 /* BackUpType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2F45D255191900029ECE9 /* BackUpType.swift */; };
-		87C2F461255191AF0029ECE9 /* ClearType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2F460255191AF0029ECE9 /* ClearType.swift */; };
+		87C2F45E255191900029ECE9 /* BackupMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2F45D255191900029ECE9 /* BackupMode.swift */; };
+		87C2F461255191AF0029ECE9 /* ClearMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2F460255191AF0029ECE9 /* ClearMode.swift */; };
 		87C2F464255191D30029ECE9 /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2F463255191D30029ECE9 /* FileInfo.swift */; };
 		87C2F467255191EF0029ECE9 /* FileRestoreCopyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2F466255191EF0029ECE9 /* FileRestoreCopyInfo.swift */; };
+		87E3CE6325654478009D975B /* IncrementalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E3CE6225654478009D975B /* IncrementalError.swift */; };
 		87F79633255288B0009FA971 /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F79632255288AF009FA971 /* FileSystem.swift */; };
-		87F796362552BA74009FA971 /* RestorePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F796352552BA74009FA971 /* RestorePoint.swift */; };
+		87F796362552BA74009FA971 /* SeparateRestorePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F796352552BA74009FA971 /* SeparateRestorePoint.swift */; };
 		87F7963D25532E96009FA971 /* BackupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7963C25532E96009FA971 /* BackupItem.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,18 +39,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		872B2BD6257501A6001DF996 /* InFileRestorePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InFileRestorePoint.swift; sourceTree = "<group>"; };
+		872B2BDA25750204001DF996 /* IRestorePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRestorePoint.swift; sourceTree = "<group>"; };
+		872B2BDD2575039B001DF996 /* IncrementalSeparateRestorePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementalSeparateRestorePoint.swift; sourceTree = "<group>"; };
+		872B2BE025750420001DF996 /* IncrementalInFileRestorePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementalInFileRestorePoint.swift; sourceTree = "<group>"; };
+		872B2BE825750E2C001DF996 /* IFullRestorePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IFullRestorePoint.swift; sourceTree = "<group>"; };
+		872B2BEB25750E4C001DF996 /* IIncrementalRestorePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IIncrementalRestorePoint.swift; sourceTree = "<group>"; };
 		8732BB9525515DB60076E663 /* Backup */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Backup; sourceTree = BUILT_PRODUCTS_DIR; };
 		8732BB9825515DB60076E663 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8790D2A62551EB9500506949 /* Backuper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backuper.swift; sourceTree = "<group>"; };
 		87C2F457255163EC0029ECE9 /* Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Files; sourceTree = "<group>"; };
 		87C2F458255163EC0029ECE9 /* Backup */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Backup; sourceTree = "<group>"; };
 		87C2F45A255191730029ECE9 /* MyDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDate.swift; sourceTree = "<group>"; };
-		87C2F45D255191900029ECE9 /* BackUpType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackUpType.swift; sourceTree = "<group>"; };
-		87C2F460255191AF0029ECE9 /* ClearType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearType.swift; sourceTree = "<group>"; };
+		87C2F45D255191900029ECE9 /* BackupMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupMode.swift; sourceTree = "<group>"; };
+		87C2F460255191AF0029ECE9 /* ClearMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearMode.swift; sourceTree = "<group>"; };
 		87C2F463255191D30029ECE9 /* FileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInfo.swift; sourceTree = "<group>"; };
 		87C2F466255191EF0029ECE9 /* FileRestoreCopyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileRestoreCopyInfo.swift; sourceTree = "<group>"; };
+		87E3CE6225654478009D975B /* IncrementalError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementalError.swift; sourceTree = "<group>"; };
 		87F79632255288AF009FA971 /* FileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
-		87F796352552BA74009FA971 /* RestorePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestorePoint.swift; sourceTree = "<group>"; };
+		87F796352552BA74009FA971 /* SeparateRestorePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateRestorePoint.swift; sourceTree = "<group>"; };
 		87F7963C25532E96009FA971 /* BackupItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,14 +95,21 @@
 				87C2F457255163EC0029ECE9 /* Files */,
 				8732BB9825515DB60076E663 /* main.swift */,
 				87C2F45A255191730029ECE9 /* MyDate.swift */,
-				87C2F45D255191900029ECE9 /* BackUpType.swift */,
-				87C2F460255191AF0029ECE9 /* ClearType.swift */,
+				87C2F45D255191900029ECE9 /* BackupMode.swift */,
+				87C2F460255191AF0029ECE9 /* ClearMode.swift */,
 				87C2F463255191D30029ECE9 /* FileInfo.swift */,
 				87C2F466255191EF0029ECE9 /* FileRestoreCopyInfo.swift */,
 				8790D2A62551EB9500506949 /* Backuper.swift */,
 				87F79632255288AF009FA971 /* FileSystem.swift */,
-				87F796352552BA74009FA971 /* RestorePoint.swift */,
 				87F7963C25532E96009FA971 /* BackupItem.swift */,
+				87E3CE6225654478009D975B /* IncrementalError.swift */,
+				872B2BDA25750204001DF996 /* IRestorePoint.swift */,
+				872B2BE825750E2C001DF996 /* IFullRestorePoint.swift */,
+				872B2BEB25750E4C001DF996 /* IIncrementalRestorePoint.swift */,
+				87F796352552BA74009FA971 /* SeparateRestorePoint.swift */,
+				872B2BD6257501A6001DF996 /* InFileRestorePoint.swift */,
+				872B2BDD2575039B001DF996 /* IncrementalSeparateRestorePoint.swift */,
+				872B2BE025750420001DF996 /* IncrementalInFileRestorePoint.swift */,
 			);
 			path = Backup;
 			sourceTree = "<group>";
@@ -151,15 +172,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				87F79633255288B0009FA971 /* FileSystem.swift in Sources */,
-				87C2F45E255191900029ECE9 /* BackUpType.swift in Sources */,
+				87C2F45E255191900029ECE9 /* BackupMode.swift in Sources */,
 				87F7963D25532E96009FA971 /* BackupItem.swift in Sources */,
 				8732BB9925515DB60076E663 /* main.swift in Sources */,
+				872B2BD7257501A6001DF996 /* InFileRestorePoint.swift in Sources */,
+				87E3CE6325654478009D975B /* IncrementalError.swift in Sources */,
+				872B2BDB25750204001DF996 /* IRestorePoint.swift in Sources */,
 				8790D2A72551EB9500506949 /* Backuper.swift in Sources */,
+				872B2BE125750420001DF996 /* IncrementalInFileRestorePoint.swift in Sources */,
 				87C2F45B255191730029ECE9 /* MyDate.swift in Sources */,
-				87C2F461255191AF0029ECE9 /* ClearType.swift in Sources */,
+				87C2F461255191AF0029ECE9 /* ClearMode.swift in Sources */,
 				87C2F464255191D30029ECE9 /* FileInfo.swift in Sources */,
+				872B2BEC25750E4C001DF996 /* IIncrementalRestorePoint.swift in Sources */,
+				872B2BE925750E2C001DF996 /* IFullRestorePoint.swift in Sources */,
+				872B2BDE2575039B001DF996 /* IncrementalSeparateRestorePoint.swift in Sources */,
 				87C2F467255191EF0029ECE9 /* FileRestoreCopyInfo.swift in Sources */,
-				87F796362552BA74009FA971 /* RestorePoint.swift in Sources */,
+				87F796362552BA74009FA971 /* SeparateRestorePoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
