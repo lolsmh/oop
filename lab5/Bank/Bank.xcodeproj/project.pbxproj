@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8714CFA7257A15D2004BE185 /* Triplet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8714CFA6257A15D2004BE185 /* Triplet.swift */; };
+		8714CFAA257A1670004BE185 /* SberBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8714CFA9257A1670004BE185 /* SberBank.swift */; };
+		8714CFAD257A3619004BE185 /* BankException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8714CFAC257A3619004BE185 /* BankException.swift */; };
+		871C09BC257943E2002C89C4 /* IAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871C09BB257943E2002C89C4 /* IAccount.swift */; };
+		871C09C3257943FE002C89C4 /* AccountCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871C09C2257943FE002C89C4 /* AccountCommand.swift */; };
+		871C09C625794CD9002C89C4 /* Transfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871C09C525794CD9002C89C4 /* Transfer.swift */; };
+		871C09D025794FC2002C89C4 /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871C09CF25794FC2002C89C4 /* Income.swift */; };
+		871C09D42579539D002C89C4 /* CommandException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871C09D32579539D002C89C4 /* CommandException.swift */; };
+		871C09D725795AC3002C89C4 /* IBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871C09D625795AC3002C89C4 /* IBank.swift */; };
+		871C09DB25795B49002C89C4 /* Withdraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871C09DA25795B49002C89C4 /* Withdraw.swift */; };
+		8763AEB725790A80009D6B71 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763AEB625790A80009D6B71 /* main.swift */; };
+		8763AEBF25791AB8009D6B71 /* ClientReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763AEBE25791AB8009D6B71 /* ClientReader.swift */; };
+		8763AEC525791D69009D6B71 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763AEC425791D69009D6B71 /* Client.swift */; };
+		8763AECC25791E3B009D6B71 /* ClientInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763AECB25791E3B009D6B71 /* ClientInitializer.swift */; };
+		87E361FA257A5E5B006FEF7B /* AccountType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E361F9257A5E5B006FEF7B /* AccountType.swift */; };
+		87E36208257A674C006FEF7B /* DepositAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E36207257A674C006FEF7B /* DepositAccount.swift */; };
+		87E3620D257A69E0006FEF7B /* CreditAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E3620C257A69E0006FEF7B /* CreditAccount.swift */; };
+		87E36213257A6B8F006FEF7B /* DebitAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E36212257A6B8F006FEF7B /* DebitAccount.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8763AEB125790A80009D6B71 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8714CFA6257A15D2004BE185 /* Triplet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triplet.swift; sourceTree = "<group>"; };
+		8714CFA9257A1670004BE185 /* SberBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SberBank.swift; sourceTree = "<group>"; };
+		8714CFAC257A3619004BE185 /* BankException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankException.swift; sourceTree = "<group>"; };
+		871C09BB257943E2002C89C4 /* IAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAccount.swift; sourceTree = "<group>"; };
+		871C09C2257943FE002C89C4 /* AccountCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCommand.swift; sourceTree = "<group>"; };
+		871C09C525794CD9002C89C4 /* Transfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transfer.swift; sourceTree = "<group>"; };
+		871C09CF25794FC2002C89C4 /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
+		871C09D32579539D002C89C4 /* CommandException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandException.swift; sourceTree = "<group>"; };
+		871C09D625795AC3002C89C4 /* IBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBank.swift; sourceTree = "<group>"; };
+		871C09DA25795B49002C89C4 /* Withdraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Withdraw.swift; sourceTree = "<group>"; };
+		8763AEB325790A80009D6B71 /* Bank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bank; sourceTree = BUILT_PRODUCTS_DIR; };
+		8763AEB625790A80009D6B71 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8763AEBE25791AB8009D6B71 /* ClientReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientReader.swift; sourceTree = "<group>"; };
+		8763AEC225791BD6009D6B71 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		8763AEC425791D69009D6B71 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		8763AECB25791E3B009D6B71 /* ClientInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInitializer.swift; sourceTree = "<group>"; };
+		87E361F9257A5E5B006FEF7B /* AccountType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountType.swift; sourceTree = "<group>"; };
+		87E36207257A674C006FEF7B /* DepositAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositAccount.swift; sourceTree = "<group>"; };
+		87E3620C257A69E0006FEF7B /* CreditAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditAccount.swift; sourceTree = "<group>"; };
+		87E36212257A6B8F006FEF7B /* DebitAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebitAccount.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8763AEB025790A80009D6B71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8763AEAA25790A80009D6B71 = {
+			isa = PBXGroup;
+			children = (
+				8763AEB525790A80009D6B71 /* Bank */,
+				8763AEB425790A80009D6B71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8763AEB425790A80009D6B71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8763AEB325790A80009D6B71 /* Bank */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8763AEB525790A80009D6B71 /* Bank */ = {
+			isa = PBXGroup;
+			children = (
+				87E361FF257A668F006FEF7B /* ClientLogic */,
+				87E36210257A6B5B006FEF7B /* AccountLogic */,
+				87E36204257A66F7006FEF7B /* Exteptions */,
+				87E36201257A66CD006FEF7B /* CommandLogic */,
+				87E36216257A6C0C006FEF7B /* BankLogic */,
+				8763AEB625790A80009D6B71 /* main.swift */,
+			);
+			path = Bank;
+			sourceTree = "<group>";
+		};
+		87E361FF257A668F006FEF7B /* ClientLogic */ = {
+			isa = PBXGroup;
+			children = (
+				8763AEC225791BD6009D6B71 /* File.txt */,
+				8763AEBE25791AB8009D6B71 /* ClientReader.swift */,
+				8763AEC425791D69009D6B71 /* Client.swift */,
+				8763AECB25791E3B009D6B71 /* ClientInitializer.swift */,
+			);
+			path = ClientLogic;
+			sourceTree = "<group>";
+		};
+		87E36201257A66CD006FEF7B /* CommandLogic */ = {
+			isa = PBXGroup;
+			children = (
+				871C09C2257943FE002C89C4 /* AccountCommand.swift */,
+				871C09C525794CD9002C89C4 /* Transfer.swift */,
+				871C09CF25794FC2002C89C4 /* Income.swift */,
+				871C09DA25795B49002C89C4 /* Withdraw.swift */,
+			);
+			path = CommandLogic;
+			sourceTree = "<group>";
+		};
+		87E36204257A66F7006FEF7B /* Exteptions */ = {
+			isa = PBXGroup;
+			children = (
+				8714CFAC257A3619004BE185 /* BankException.swift */,
+				871C09D32579539D002C89C4 /* CommandException.swift */,
+			);
+			path = Exteptions;
+			sourceTree = "<group>";
+		};
+		87E36210257A6B5B006FEF7B /* AccountLogic */ = {
+			isa = PBXGroup;
+			children = (
+				871C09BB257943E2002C89C4 /* IAccount.swift */,
+				87E36207257A674C006FEF7B /* DepositAccount.swift */,
+				87E3620C257A69E0006FEF7B /* CreditAccount.swift */,
+				87E36212257A6B8F006FEF7B /* DebitAccount.swift */,
+				87E361F9257A5E5B006FEF7B /* AccountType.swift */,
+			);
+			path = AccountLogic;
+			sourceTree = "<group>";
+		};
+		87E36216257A6C0C006FEF7B /* BankLogic */ = {
+			isa = PBXGroup;
+			children = (
+				871C09D625795AC3002C89C4 /* IBank.swift */,
+				8714CFA9257A1670004BE185 /* SberBank.swift */,
+				8714CFA6257A15D2004BE185 /* Triplet.swift */,
+			);
+			path = BankLogic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8763AEB225790A80009D6B71 /* Bank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8763AEBA25790A80009D6B71 /* Build configuration list for PBXNativeTarget "Bank" */;
+			buildPhases = (
+				8763AEAF25790A80009D6B71 /* Sources */,
+				8763AEB025790A80009D6B71 /* Frameworks */,
+				8763AEB125790A80009D6B71 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bank;
+			productName = Bank;
+			productReference = 8763AEB325790A80009D6B71 /* Bank */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8763AEAB25790A80009D6B71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					8763AEB225790A80009D6B71 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8763AEAE25790A80009D6B71 /* Build configuration list for PBXProject "Bank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8763AEAA25790A80009D6B71;
+			productRefGroup = 8763AEB425790A80009D6B71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8763AEB225790A80009D6B71 /* Bank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8763AEAF25790A80009D6B71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8714CFA7257A15D2004BE185 /* Triplet.swift in Sources */,
+				8763AEBF25791AB8009D6B71 /* ClientReader.swift in Sources */,
+				871C09DB25795B49002C89C4 /* Withdraw.swift in Sources */,
+				871C09D025794FC2002C89C4 /* Income.swift in Sources */,
+				87E36208257A674C006FEF7B /* DepositAccount.swift in Sources */,
+				8763AECC25791E3B009D6B71 /* ClientInitializer.swift in Sources */,
+				87E361FA257A5E5B006FEF7B /* AccountType.swift in Sources */,
+				8763AEB725790A80009D6B71 /* main.swift in Sources */,
+				87E36213257A6B8F006FEF7B /* DebitAccount.swift in Sources */,
+				871C09D42579539D002C89C4 /* CommandException.swift in Sources */,
+				871C09C625794CD9002C89C4 /* Transfer.swift in Sources */,
+				8714CFAD257A3619004BE185 /* BankException.swift in Sources */,
+				871C09D725795AC3002C89C4 /* IBank.swift in Sources */,
+				8763AEC525791D69009D6B71 /* Client.swift in Sources */,
+				871C09BC257943E2002C89C4 /* IAccount.swift in Sources */,
+				8714CFAA257A1670004BE185 /* SberBank.swift in Sources */,
+				871C09C3257943FE002C89C4 /* AccountCommand.swift in Sources */,
+				87E3620D257A69E0006FEF7B /* CreditAccount.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8763AEB825790A80009D6B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8763AEB925790A80009D6B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8763AEBB25790A80009D6B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q942766435;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8763AEBC25790A80009D6B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q942766435;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8763AEAE25790A80009D6B71 /* Build configuration list for PBXProject "Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8763AEB825790A80009D6B71 /* Debug */,
+				8763AEB925790A80009D6B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8763AEBA25790A80009D6B71 /* Build configuration list for PBXNativeTarget "Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8763AEBB25790A80009D6B71 /* Debug */,
+				8763AEBC25790A80009D6B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8763AEAB25790A80009D6B71 /* Project object */;
+}

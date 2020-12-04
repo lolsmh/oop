@@ -7,7 +7,6 @@ protocol IRestorePoint {
     var isFatherRestorePoint: Bool {get}
     func getSize() -> Int
     func show()
-    func setAsFatherRestorePoint()
 }
 
 extension IRestorePoint {    

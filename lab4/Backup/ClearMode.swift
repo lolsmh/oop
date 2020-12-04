@@ -62,6 +62,7 @@ class ClearMode {
     }
     
     static func Gybrid(args: [IRestorePoint], bySize isCleaningBySize: Bool, size: String, byCount isCleaningByCount: Bool, count: String, byDate isCleaningByDate: Bool, date: String, max: Bool, all: Bool) -> [IRestorePoint] {
+        
         var needToCleanByCount = false
         var needToCleanBySize = false
         var needToCleanByDate = false

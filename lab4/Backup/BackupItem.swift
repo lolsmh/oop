@@ -40,10 +40,6 @@ class BackupItem {
         if self.items.count == 0 {
             throw IncrementalError.BackupIsEmpty()
         }
-//        if self.fatherRestore == nil || !(self.items.last! is IncrementalSeparateRestorePoint) ||  {
-//            self.items.last?.isFatherIncremental = true
-//            self.fatherRestore = self.items.last
-//        }
         if self.items.last! is IFullRestorePoint {
             if self.fatherRestore == nil { self.fatherRestore = self.items.last }
         }
